@@ -1,19 +1,16 @@
-def soma(a,b):
+def soma(lista):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(soma([3, 6, 10]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert soma([1, 2, 3, 4, 5]) == 15 
+assert soma([10, 20, 30]) == 60 
+assert soma([-1, 0, 1]) == 0 
+assert soma([]) == 0 
+assert soma([100]) == 100
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
