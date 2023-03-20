@@ -2,42 +2,53 @@
 <div class="question-answer">
     <div class="question">
         <p>
-            Qual pode ser o primeiro passo para resolver esse problema?
+            Tem outro jeito de percorrer a lista de números 
         </p>
     </div>
     <div class="answer">
         <p>
-            Primeiro devemos entender o que está no nosso compilador. Veja a imagem abaixo:
+             Sim, vamos testar o loop for. Apesar do while também funcionar para esse exercício, o for é mais indicado para percorrermos sequências (como uma lista ou uma string) e executar comandos para cada item.
         </p>
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Ok, mas onde eu devo programar?
+             Ok, me dê um exemplo da sintaxe do for?
         </p>
     </div>
     <div class="answer">
         <p>
-            Escreva seu comentário no comentário logo embaixo da definição da função soma
+            A variável 'numero' logo depois da palavra for representa cada item da lista, um de cada vez, em ordem crescente. Chamamos esse procedimento de iteração.
         </p>
+         <pre class="brush: python">
+ lista = [1, 2, 3, 4, 5]
+
+for numero in lista:
+    print(numero)
+        </pre>
+        
+        <p>
+            Perceba como não precisamos colocar uma condição e nem alterar o índice da lista quando usamos o loop for.
+        </p>
+
           
      </div>
 </div>
 <div class="question-answer">
     <div class="question">
         <p>
-            Posso criar uma variável para me ajudar?
+             Como posso salvar a soma?
         </p>
     </div>
     <div class="answer">
         <p>
-            Sim, uma das formas de resolver é atribuir/armazenar o valor da operação a+b numa variável nova.
+            Não se esqueça de criar uma variável adicional para armazenar e atualizar o valor de soma para cada item da lista. 
         </p>
-        
         <p>
-            Só não se esqueça de retornar o valor desta variável!
+            Ex: total = total + 1
         </p>
+     
           
      </div>
 </div>
